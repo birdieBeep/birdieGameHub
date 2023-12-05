@@ -1,0 +1,41 @@
+/*esta é apenas uma base para trabalhar o estilo de sua página, altere e adicione os campos que desejar*/
+
+body 
+{
+    /*text-align → alinhamento do texto*/
+    text-align: center;
+}
+
+h1 
+{
+    /*font-size → tamanho da letra*/
+    font-size: 40px;
+    /*font-family → tipo de letra*/
+    font-family: sans-serif;
+    /*font-weight → espessura da letra*/
+    font-weight: 300;
+}
+
+/* o símbolo # antes do seletor indica que é uma id a ser estilizada */
+#app 
+{
+    /*background-color → cor de fundo*/
+    background-color: aliceblue;
+}
+
+#game
+{
+    background-color:lightcoral;
+}
+
+/* o símbolo de ponto final (.) antes do seletor indica qeu é uma class a ser estilizada */
+.line 
+{
+    /*height → altura*/
+    height: 6px;
+    background-color: #000;
+    /*width → largura*/
+    width: 70px;
+    /*margin → margem*/
+    margin: 8px auto;
+}
